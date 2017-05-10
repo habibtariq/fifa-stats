@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { SkiDayCount} from './components/SkiDayCount'
 
 render(
-	<div>
-	</div>,
+	<SkiDayCount />,
 	document.getElementById('react-container')
 )
